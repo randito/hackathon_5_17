@@ -27,9 +27,12 @@
   <!-- Add your site or application content here -->
   <p>Hello world! This is HTML5 Boilerplate.</p>
   <a-scene embedded artoolkit='sourceType: webcam;'>
-    <a-plane id="plane" position="0 0 0" rotation="-90 0 0" width="2" height="2" color="#eeeeee"></a-plane>
-    <a-marker-camera preset='hiro'></a-marker-camera>
+    <a-assets>
+      <img id="groundTexture" src="img/scan_out.png">
+    </a-assets>
 
+    <a-plane id="plane" src="#groundTexture" position="0 0 0" rotation="-90 0 0" width="2" height="2" color="#eeeeee"></a-plane>
+    <a-marker-camera preset='hiro'></a-marker-camera>
   </a-scene>
 
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
