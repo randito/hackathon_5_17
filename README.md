@@ -1,3 +1,4 @@
+## Getting started
 
 Visit https://randito.github.io/hackathon_5_17/
 1.  Android + Chrome
@@ -16,7 +17,6 @@ Cross fingers and hope it works
 ## Uses the following library 
 
 https://github.com/randito/AR.js
-1.  Uses this fork of the AR.js library
 
 ## Based on this blog post
 
